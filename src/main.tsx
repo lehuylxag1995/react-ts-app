@@ -1,10 +1,9 @@
+import AdminLayout from '@/layouts/Admin/AdminLayout'
+import MainLayout from '@/layouts/Main/MainLayout'
+import DashboardPage from '@/pages/Admin/DashboardPage'
+import HomePage from '@/pages/Main/Home/HomePage'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router'
-
-import DashboardPage from './pages/Admin/DashboardPage.tsx'
-import HomePage from './pages/Main/HomePage.tsx'
-import AdminLayout from './layouts/Admin/AdminLayout.tsx'
-import MainLayout from '@/layouts/Main/MainLayout.tsx'
 
 const router = createBrowserRouter([
   //Main Layout
