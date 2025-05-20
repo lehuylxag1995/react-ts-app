@@ -1,3 +1,4 @@
+import MainFooter from '@/layouts/Main/MainFooter'
 import MainHeader from '@/layouts/Main/MainHeader'
 import { Outlet } from 'react-router'
 
@@ -9,7 +10,7 @@ function MainLayout() {
         <main>
           <Outlet />
         </main>
-        <footer className="bg-blue-400 h-[597.6px]">Footer</footer>
+        <MainFooter />
       </div>
     </>
   )

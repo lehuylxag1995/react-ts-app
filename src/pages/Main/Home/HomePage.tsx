@@ -163,7 +163,47 @@ function HomePage() {
 
       <FeatureProduct />
 
-      <div className="bg-amber-200 h-[749.73px]">Big sale !</div>
+      {/* Big Sale */}
+      <div>
+        <span className="flex justify-center items-center pt-15">
+          <svg
+            className={`fill-current w-8 text-[#7971ea] `}
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path d="M32 288c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 288zm0-128c-17.7 0-32 14.3-32 32s14.3 32 32 32l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 160z" />
+          </svg>
+        </span>
+        <h3 className="text-center font-[450] text-3xl capitalize pt-4">
+          big sale !
+        </h3>
+        <div className="flex flex-col px-10 pt-15 pb-10 md:flex-row md:px-44 md:pb-30">
+          <img
+            className="w-full max-w-[600px] h-auto object-cover"
+            src="/images/blog_1.jpg"
+            alt="big sale"
+          />
+          <div className="flex flex-col text-center justify-center gap-5 px-10">
+            <span className="text-[#7971ea] text-[25px] font-[500] tracking-[1px]">
+              50% less in all items
+            </span>
+            <span className="text-gray-400">
+              By <span className="text-[#7971ea]">Carl Smith</span> • September
+              3, 2018
+            </span>
+            <span className="text-gray-400 text-balance">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              iste dolor accusantium facere corporis ipsum animi deleniti
+              fugiat. Ex, veniam?
+            </span>
+            <div>
+              <button className="bg-[#7971ea] text-white px-8 py-2 uppercase rounded-md tracking-wider hover:bg-indigo-600 hover:shadow-xl/20  hover:-translate-y-1 transition duration-300 ease-in-out">
+                shop now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
