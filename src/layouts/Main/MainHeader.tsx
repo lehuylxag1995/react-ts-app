@@ -83,10 +83,12 @@ export default function MainHeader() {
         </div>
         {/* Navigation  */}
         <nav className="size-auto">
-          <ul className="flex gap-10 size-full items-center justify-center text-gray-600 uppercase text-[16px] font-light">
+          <ul className="flex gap-10 size-auto items-center justify-center text-gray-600 uppercase text-[16px] font-light">
             <li className="relative group/menu">
-              <a className="flex items-center justify-center gap-2" href="#">
-                <span className="group-hover/menu:text-[#7971ea]">Home</span>
+              <a className="flex items-center justify-center" href="#">
+                <span className="py-5 pr-2 group-hover/menu:text-[#7971ea]">
+                  Home
+                </span>
                 <svg
                   className="size-3 fill-current font-light text-gray-400 group-hover/menu:text-[#7971ea]"
                   xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +97,7 @@ export default function MainHeader() {
                   <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                 </svg>
               </a>
-              <ul className="transition-all duration-200 ease-in-out translate-y-8 opacity-0 invisible group-hover/menu:visible group-hover/menu:opacity-100 group-hover/menu:translate-y-[20px] absolute h-auto w-[200px] bg-white shadow-lg border-t-2 border-[#7971ea] font-light">
+              <ul className="z-50 transition-all duration-200 ease-in-out translate-y-8 opacity-0 invisible group-hover/menu:visible group-hover/menu:opacity-100 group-hover/menu:translate-y-0 absolute h-auto w-[200px] bg-white shadow-lg border-t-2 border-[#7971ea] font-light">
                 <li className="w-full h-[45.2px] px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-black">
                   Menu One
                 </li>
@@ -179,7 +181,7 @@ export default function MainHeader() {
                   <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                 </svg>
               </a>
-              <ul className="bg-white font-light shadow-lg transition-all duration-300 ease-in-out translate-y-8 opacity-0 invisible group-hover/menu:translate-y-0 group-hover/menu:opacity-100 group-hover/menu:visible border-t-2 border-[#7971ea] absolute h-auto w-[200px]">
+              <ul className="z-50 bg-white font-light shadow-lg transition-all duration-300 ease-in-out translate-y-8 opacity-0 invisible group-hover/menu:translate-y-0 group-hover/menu:opacity-100 group-hover/menu:visible border-t-2 border-[#7971ea] absolute h-auto w-[200px]">
                 <li className="h-[45.2px] w-full px-4 py-2 text-gray-500 hover:text-black hover:bg-gray-100">
                   Menu 1
                 </li>
